@@ -35,6 +35,7 @@ body {
 
 }
 
+/* SEC: Nav Elements */
 nav {
     position: relative;
     padding-top: 62px;
@@ -55,7 +56,7 @@ nav::after {
     background-size: cover;
 }
 
-
+/* SEC: Hero Page Text */
 .hero-text {
     width: 845px;
     margin-bottom: 320px;
@@ -81,6 +82,7 @@ nav::after {
     margin-top: 40px;
 }
 
+/* SEC:Banner */
 .banner {
     position: relative;
     width: 100%;
@@ -168,9 +170,72 @@ nav::after {
 #apple-btn {
     color: var(--white);
     background-color: var(--black);
+    transition: background-color .5s ease;
+}
+
+#apple-btn:hover {
+    background-color: var(--cyan);
 }
 
 #android-btn {
     color: var(--black);
     background-color: var(--white);
+    transition: background-color .5s ease;
+}
+
+#android-btn:hover {
+    background-color: var(--light-orange);
+}
+
+/* SEC: Footer */
+
+
+footer {
+    margin-top: 202px;
+    display: flex;
+    justify-content: space-between;
+    gap: 137px;
+
+    height: 80px;
+}
+
+footer .logo {
+
+    align-self: flex-start;
+    width: 146px;
+    height: 32px;
+}
+
+footer p {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--black);
+    flex: 2;
+}
+
+footer p a {
+    font-weight: 700;
+    color: var(--black);
+    text-decoration: none;
+}
+
+
+.icon-set {
+    flex-wrap: nowrap;
+    align-self: center;
+    justify-self: flex-end;
+
+
+}
+
+.icon-set img {
+    margin: 0 10px;
+}
+
+.icon-set img:hover {
+    -webkit-filter: invert(58%) sepia(45%) saturate(1719%) hue-rotate(327deg) brightness(103%) contrast(96%);
+    filter: invert(58%) sepia(45%) saturate(1719%) hue-rotate(327deg) brightness(103%) contrast(96%);
 }
