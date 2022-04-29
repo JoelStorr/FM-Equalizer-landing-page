@@ -42,8 +42,7 @@ body {
 nav {
     position: relative;
     padding-top: 62px;
-
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 nav::after {
