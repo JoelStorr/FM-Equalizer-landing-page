@@ -131,7 +131,7 @@ nav::after {
     font-size: 40px;
     line-height: 52px;
     color: var(--white);
-    flex: 2;
+    flex: 1;
 }
 
 .card p {
