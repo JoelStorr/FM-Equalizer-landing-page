@@ -130,7 +130,8 @@ nav::after {
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    color: var(--white)
+    color: var(--white);
+    flex: 2;
 }
 
 .card p {
@@ -140,12 +141,14 @@ nav::after {
     font-size: 20px;
     line-height: 34px;
     color: var(--white);
+    flex: 2;
 }
 
 
 #pricing {
     display: flex;
     align-items: center;
+    flex: 2;
 }
 
 #pricing span {
@@ -169,6 +172,7 @@ nav::after {
     border: none;
     border-radius: 12px;
     padding: 15px;
+    margin: 5px 0;
 }
 
 .card button span {
