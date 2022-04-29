@@ -26,8 +26,10 @@ body {
 
 body {
     background-image: url("../assets/bg-main-desktop.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat-y;
+    background-size: 120%;
+    background-position-x: -164px;
+    background-position-y: -200px;
     display: flex;
     flex-direction: column;
     justify-content: left;
