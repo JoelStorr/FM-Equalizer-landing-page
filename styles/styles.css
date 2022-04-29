@@ -240,11 +240,8 @@ footer p a {
 
 
 .icon-set {
-    flex-wrap: nowrap;
     align-self: center;
     justify-self: flex-end;
-
-
 }
 
 .icon-set img {
@@ -326,4 +323,96 @@ footer p a {
 
     }
 
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        background-image: url('../assets/bg-main-mobile.png');
+        background-position-x: 100px;
+        background-position-y: -100px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 0 0;
+        margin-bottom: 20px;
+    }
+
+    nav {
+        padding: 40px 24px;
+        margin-bottom: 40px;
+    }
+
+    nav::after {
+        background-image: none;
+        width: 0px;
+        height: 0px;
+    }
+
+    .hero-text {
+        width: 100%;
+        padding: 0 24px;
+        margin-bottom: 250px;
+    }
+
+    .hero-text h1 {
+        font-size: 40px;
+        line-height: 48px;
+        /* or 120% */
+        letter-spacing: -0.454545px;
+    }
+
+    .banner {
+        width: 100%;
+        background-position: center;
+        background-position-y: 0px;
+        margin-bottom: 474px;
+    }
+
+    #phone {
+        width: 208.97px;
+        height: auto;
+        margin-bottom: 48px;
+    }
+
+    .card {
+        width: 100%;
+        left: 0;
+        top: 380px;
+        padding: 48px 37px
+    }
+
+    .card h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .card p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+
+        max-width: 360px;
+        padding: 0 20px;
+    }
+
+    footer p {
+        align-self: flex-start;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        flex: 2;
+        padding: 2px;
+        display: inline-block;
+    }
+
+    .icon-set {
+        margin-top: 50px;
+        justify-self: left;
+        align-self: flex-start;
+    }
 }
