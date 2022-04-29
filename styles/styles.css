@@ -62,7 +62,8 @@ nav::after {
 /* SEC: Hero Page Text */
 .hero-text {
     width: 845px;
-    margin-bottom: 370px;
+    margin-bottom: 350px;
+
 }
 
 .hero-text h1 {
