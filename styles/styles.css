@@ -172,7 +172,6 @@ nav::after {
     border: none;
     border-radius: 12px;
     padding: 15px;
-    margin: 5px 0;
 }
 
 .card button span {
@@ -194,6 +193,7 @@ nav::after {
     color: var(--white);
     background-color: var(--black);
     transition: background-color .5s ease;
+    margin-bottom: 10px;
 }
 
 #apple-btn:hover {
